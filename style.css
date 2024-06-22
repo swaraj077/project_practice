@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: #FCAF02;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    padding: 24px 58px;
+    background-color: #FCAF02;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    margin: 87px 50px 140px 58px;
+    color: white;
+}
+
+h1,
+h2 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+button {
+    background-color: #FCAF02;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.navbar {
+    position: absolute;
+    right: 78px;
+}
+
+.click {
+    margin-right: 78px;
+}
+
+#logo {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#introduction {
+    height: 20vh;
+    width: 50vw;
+}
+
+#paragraph {
+    padding-block: 4% 4%;
+    margin-left: 5px;
+}
+
+#login {
+    padding: 14px 114px 13px;
+    margin: 0 0 0px 5px;
+    border: none;
+    border-radius: 500px;
+}
+
+#introduction,
+figure {
+    display: inline-block;
+}
+
+#contact {
+    margin: 0 0 0 63px;
+}
+
+::placeholder {
+    color: #FCAF02;
+    font-size: 28px;
+}
+
+input {
+    background-color: black;
+    color: #FCAF02;
+    font-size: 28px;
+    border: 1px solid #FCAF02;
+    border-radius: 100px;
+    outline: none;
+    padding: 24px 58px 24px;
+}
+
+.block {
+    width: 85vw;
+}
+
+.line {
+    width: 35vw;
+}
+
+#name {
+    margin-top: 64px;
+}
+
+#email {
+    margin-block: 50px;
+}
+
+#mob_no {
+    margin-right: 16vh;
+}
+
+#submit {
+    margin: 67px 0 116px 38%;
+    padding: 21px 53px 22px;
+    border: none;
+    border-radius: 100px;
+}
+
+table {
+    margin: auto;
+    height: 34px;
+    width: 95%;
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 1px solid #FCAF02;
+    border-collapse: collapse;
+}
+
+#final_footer {
+    height: 34px;
+    width: auto;
+    color: black;
+    background-color: #FCAF02;
+}
+
+    
